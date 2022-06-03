@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&family=Montserrat:wght@300;400;500;600;700&family=Righteous&display=swap"
+        rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da memória</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>jogo da memória</h1>
+        </header>
+        <main>
+            <div id="gameBoard"></div>
+
+            <div id="gameOver">
+                <p>parabéns, você completou o jogo!</p>
+                <button id="restart" onclick="restart()">jogar novamente</button>
+            </div>
+        </main>
+        <script src="./js/game.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
