@@ -84,7 +84,7 @@ img{
     color: #fff;
     font-size: 50px;
   
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -116,5 +116,9 @@ img{
     }
     .card_front, .card_back{
         border-radius: 5px;
+    }
+    #gameOver{
+        font-size: 2em;
+        top: auto;
     }
   }
